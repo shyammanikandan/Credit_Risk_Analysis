@@ -48,31 +48,37 @@ This dataset is a collection of data used by financial institutions and lenders 
 - Missing values are treated by mode and mean of the individual customer group.
 - Outliers are treated by Inter Quartile Range.
 
-## Tests and Concepts used
+## Concepts
 
-- Feature Engineering
+- _Feature Engineering_
   - Created new features that can be leveraged for the calculation of credit scores based on domain knowledge and insights from EDA.
   - Aggregated the data on the customer level when required.
-- One Way ANOVA
-- QQ - plot to test normality of data
-- Shapiro Wilk test to test normality of data
-- Levene's Test to test the variance among the groups
-- Central Limit Theorem
-- Random Sampling
-- Correlation Matrix
+- _Hypothetical Credit Score Calculation_
+  - Developed a methodology to calculate a hypothetical credit score using relevant features.
+  - Considered features and their weightage
+    - Delayed_Payments  - 0.25
+    - Credit_Mix - 0.15
+    - Credit_History_Age - 0.13
+    - Credit_Inquiries - 0.11
+    - Annual_Income - 0.1
+    - Credit_Utilization_Ratio - 0.08
+    - Outstanding_Debt - 0.07
+    - Loans - 0.06
+    - Credit_Cards - 0.05
+- Data Visualization using Matplotlib and Seaborn
 
 ## Trends and Insights
 
-- Loan products under the Type 1 category are likely contributing disproportionately to the overall default rate.
-- Purpose-driven loans (P3, P4) might require more stringent risk assessments, especially in uncertain economic climates.
-- Geographic location has a significant impact on default risk, likely due to regional economic factors.
-- High Loan Amounts Are Correlated with Higher Default Rates.
-- Borrowers with personal and fixed-rate loans may face higher default risks.
+- High Annual Income as a Strong Indicator of Creditworthiness.
+- Longer Credit History Correlates with Stronger Financial Discipline.
+- Minimum Payments Linked to Poor Credit Mix.
+- High Credit Utilization as a Red Flag for Default and Financial Stress.
+- Credit Inquiries Correlated with Debt and Borrowing Behavior
 
-## Business Recommendations
+## Recommendations
 
-- Consider offering financial literacy programs or pre-loan counseling to help borrowers understand the loan terms and consequences of default.
-- Implement more thorough risk assessments for P3 and P4 loans.
-- Consider developing region-specific financial products that take into account local economic conditions.
-- Offer smaller loan products with more affordable repayment plans for high-risk borrowers.
-- Reassess the pricing model and risk criteria for personal loans, potentially increasing requirements for borrower eligibility.
+- Prioritize High-Earning Customers
+- Implement Income-Based Loan Limitations
+- Exercise Caution with Customers Lacking Credit History
+- Encourage Credit Status Improvement for Low-Risk Borrowers
+- Limit Loan Amounts for Average-Risk Customers
