@@ -5,8 +5,8 @@ To conduct a thorough exploratory data analysis (EDA) and deep analysis of a com
 ## Important Links
 - [Dataset](https://drive.google.com/file/d/1pljm6_3nxcFS9UMIFm124HBsjNZP6ACA/view?usp=sharing)
 - [Data dictionary](https://docs.google.com/spreadsheets/d/1ZuK6o1MXFLmnhkFuDEedasDfVqu9ISPV/edit#gid=688359417)
-- [Jupyter Notebooks]()
-- [Project Report]()
+- [Jupyter Notebooks](https://github.com/shyammanikandan/Credit_Risk_Analysis/tree/main/Jupyter%20Notebook)
+- [Project Report](https://github.com/shyammanikandan/Credit_Risk_Analysis/blob/main/Credit%20Risk%20Analysis%20Report.pdf)
 ## About Data
 This dataset is a collection of data used by financial institutions and lenders to evaluate the creditworthiness of individuals or businesses. This dataset provides comprehensive information that helps in assessing the risk of lending to a particular borrower and predicting the likelihood of a loan default or delinquency. Credit risk analysis is a critical aspect of the lending process as it allows institutions to make informed decisions about whether to approve a loan, adjust loan terms, or offer specific financial products.
 
