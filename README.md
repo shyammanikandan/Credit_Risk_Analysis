@@ -50,9 +50,9 @@ This dataset is a collection of data used by financial institutions and lenders 
 
 ## Tests and Concepts used
 
-- ###Feature Engineering
-  : Created new features that can be leveraged for the calculation of credit scores based on domain knowledge and insights from EDA.
-  Aggregated the data on the customer level when required.
+- Feature Engineering
+  - Created new features that can be leveraged for the calculation of credit scores based on domain knowledge and insights from EDA.
+  - Aggregated the data on the customer level when required.
 - One Way ANOVA
 - QQ - plot to test normality of data
 - Shapiro Wilk test to test normality of data
